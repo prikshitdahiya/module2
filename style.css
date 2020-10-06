@@ -5,13 +5,13 @@
 }	
 
 body {
-  font-size:16px;
+  font-size:15px;
   font-family: Comic Sans MS;
    }
 
 
 h1 {
-  height: 3.33%;
+  height: 4.33%;
   margin-top:3.33%;
   margin-bottom: 3.33%;
   text-align: center;
@@ -30,23 +30,23 @@ h1 {
      float: right;
      border: 1px solid black;
      text-align: center;
-     font-size: 1.25em ;
+     font-size: 1.3em ;
      float: right;
     }
 
 #chicken{
-  background-color: #E0B3B3;
+  background-color: #7fe6d9;
 }
 #beef{
-  background-color: #D13F3F;
+  background-color: #fca2ae;
 }
 
 #sushi{
-  background-color:#E3D6A4;
+  background-color:#eed174;
 }
 
 .paragraph{
-  margin: 10px;
+  margin: 12px;
   color: black;
   clear: both;
   }
@@ -63,17 +63,15 @@ h1 {
  }
 
 @media (min-width: 768px) & (max-width: 991px){
- .col-2,.col-1 {
-    
-    float: left;
-  }
-  
+ 
   .col-2 {
     width: 50%;
+	float:left;
   }
   
   .col{
     width: 100%;
+	  float:left;
   }
 }
 
